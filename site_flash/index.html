@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OOO2 (Flash Bridge)</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #e7eef7;
+      font-family: Verdana, Tahoma, sans-serif;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 24px auto;
+      padding: 0 16px;
+    }
+    .note {
+      font-size: 14px;
+      color: #9cb0c5;
+      margin-bottom: 16px;
+    }
+    .player {
+      width: 570px;
+      height: 370px;
+      background: #000;
+      border: 1px solid #1f2a33;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="note">
+      This page requires Pale Moon + the Flash NPAPI plugin. Flash is end-of-life and unsafe on the open web.
+      Use a dedicated browser profile or a VM, and only enable Flash for this site.
+    </div>
+    <div class="note">
+      Setup steps:
+    </div>
+    <div class="note">1. Install Pale Moon.</div>
+    <div class="note">2. Install a Flash NPAPI plugin you trust. Adobe discontinued Flash, so use an archived installer only if you can verify its source and checksum.</div>
+    <div class="note">3. In Pale Moon, enable the Flash plugin and allow it for this site.</div>
+    <object class="player" data="OOO2Bridge.swf" type="application/x-shockwave-flash" width="570" height="370">
+      <param name="movie" value="OOO2Bridge.swf" />
+      <param name="allowScriptAccess" value="always" />
+      <param name="allowNetworking" value="all" />
+      <param name="wmode" value="window" />
+    </object>
+  </div>
+</body>
+</html>
